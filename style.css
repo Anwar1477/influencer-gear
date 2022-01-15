@@ -25,10 +25,9 @@ body{
     background-color: #E02C6D;
     border-radius: 41px;
 }
-.fa-long-arrow-alt-right{
+.fa-arrow-right{
     color: white;
-    margin-top: 5px;
-    margin-left: 5px;
+
 }
 .influencer-left h1{
     font-size: 52px;
