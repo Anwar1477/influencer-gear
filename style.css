@@ -8,6 +8,43 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.header{
+    width: 1440px;
+    padding: 10px;
+    display: flex;
+    padding: 40px;
+}
+/* .logo{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+} */
+.text p{
+    color: Black;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.navbar{
+    display: flex;
+    margin-left: 500px;
+}
+
+.nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #0A0826;
+}
+.nav ul li a:hover{
+    color: red;
+}
 .container{
     height: 100vh;
     margin: 0 auto;
@@ -51,47 +88,47 @@ body{
 }
 @keyframes typing {
     0% {
-        content: 'Start|';
+        content: 'Start ';
     }
 
     10% {
-        content: 'Start My|';
+        content: 'Start My ';
     }
 
     20% {
-        content: 'Start My Journey|';
+        content: 'Start My Journey ';
     }
 
     30% {
-        content: 'Start My Journey as|';
+        content: 'Start My Journey as ';
     }
 
     40% {
-        content: 'Start My Journey as Influencer|';
+        content: 'Start My Journey as Influencer ';
     }
 
     50% {
-        content: 'Start My Journey as |';
+        content: 'Start My Journey as  ';
     }
 
     60% {
-        content: 'Start My Journey|';
+        content: 'Start My Journey ';
     }
 
     70% {
-        content: 'Start My|';
+        content: 'Start My ';
     }
 
     80% {
-        content: 'Start|';
+        content: 'Start ';
     }
 
     /* 90% {
-        content: '|';
+        content: ' ';
     } */
 
     100% {
-        content: '|';
+        content: ' ';
     }
 
     
