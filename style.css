@@ -4,9 +4,6 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-section{
-
-}
 .container{
     margin: 0 auto;
     display: flex;
@@ -80,7 +77,9 @@ hr{
 
 /* Collection Area  */
 .collection-area{
+    width: 1200px;
     justify-content: center;
+    margin-left: 63px;
 
 }
 .title{
@@ -117,6 +116,7 @@ hr{
     height: 256px;
 }
 .card-title{
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 28px;
     margin-left: 10px;
@@ -128,18 +128,13 @@ hr{
     
 }
 .details .price{
+    font-family: 'Inter', sans-serif;
     margin-bottom: 20px;
 }
-.card-info p{
-    letter-spacing: 0.018em;
-    color: #787885;
-    font-weight: bold;
-    font-size: 14px;
-}
-.card-info span{
+/* .card-info span{
     font-size: 14px;
     font-weight: bold;
-}
+} */
 .fa-star{
     font-size: 12px;
 }
@@ -150,6 +145,15 @@ hr{
     font-size: 12px;
     color:#FFC014 ;
 }
-.fa-star.empty{
-    color: #AEAEAE;
+.see-more a{
+    text-decoration: none;
+    float: right;
+    margin-top: 30px;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+}
+.fa-long-arrow-alt-right{
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+
 }
