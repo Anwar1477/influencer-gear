@@ -21,7 +21,7 @@ body{
 .influencer-left a{
     text-decoration: none;
     color: white;
-    padding: 10px 24px;
+    padding: 5px 10px;
     background-color: #E02C6D;
     border-radius: 41px;
 }
@@ -58,7 +58,6 @@ body{
 /* logo section */
 hr{
     opacity: 0.4;
-    width: 1000px;
 }
 .marketplace-area{
     height: 80px;
@@ -66,12 +65,14 @@ hr{
 
 }
 .marketplace{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
     justify-content: space-between;
     justify-content: center;
-}
-.marketplace-area .marketplace .marketplace-logo{
     padding: 30px;
+}
+.marketplace img{
+    padding: 0 30px;
 }
 
 /* Collection Area  */
@@ -157,7 +158,9 @@ hr{
     font-weight: 700;
 }
 .bonus-part{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
 }
 .bonus-left{
     flex: 1;
@@ -168,9 +171,11 @@ hr{
     margin-top: 7%;
 
 }
-.bonus-left img{
+.influencer-left img{
     width: 440px;
     height: 414px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 50px;
 }
 .bonus-right{
     margin-left: 100px;
@@ -236,4 +241,55 @@ footer{}
 }
 .fa-twitter{
     color: darkblue;
+}
+
+
+/* Media Querry */
+@media only screen and (max-width:688px) {
+    .container,.influencer-left,.button{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+
+    .marketplace-area{
+        width: 100%;
+
+    }
+    .marketplace{
+        grid-template-columns: repeat(4,1fr);
+        flex-direction: column;
+    }
+     .collection{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        
+    }
+    .bonus-part{
+        width: 100%;
+    }
+    .bonus-left,.bonus-right,.button{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }        
+        }
+
+        /* medium device */
+@media only screen and (min-width:689px) and (max-width:992px){
+
+    .marketplace-area{
+        width: 100%;
+
+    }
+    .marketplace{
+        grid-template-columns: repeat(5,1fr);
+        flex-direction: column;
+    }
+    .collection{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        background-color: yellowgreen;
+    }
+    
 }
