@@ -58,3 +58,25 @@ section{
     background-repeat: no-repeat;
     /* position: absolute; */
 }
+
+/* logo section */
+hr{
+    opacity: 0.4;
+    width: 1000px;
+}
+.marketplace-area{
+    height: 80px;
+    margin-top: 70px;
+
+}
+.marketplace{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.marketplace-area .marketplace .marketplace-logo{
+    padding: 30px;
+}
+
+/* Collection Area  */
+
