@@ -79,4 +79,77 @@ hr{
 }
 
 /* Collection Area  */
+.collection-area{
+    justify-content: center;
 
+}
+.title{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 80px;
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 26px;
+
+}
+.collection .card{
+    padding: 20px;
+}
+
+.card{
+        margin: 0 auto;
+        box-shadow: 5px 5px 5px 10px #888888;
+        border-radius: 5px;
+        padding: 5px;
+        width: 329px;
+        height: 476px;
+        overflow: hidden;
+}
+.card .card-image{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 10px 0;
+    /* width: 300px; */
+    height: 256px;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 10px;
+    line-height: 10px;
+}
+.details{
+    margin-left: 10px;
+    line-height: 20px;
+    
+}
+.details .price{
+    margin-bottom: 20px;
+}
+.card-info p{
+    letter-spacing: 0.018em;
+    color: #787885;
+    font-weight: bold;
+    font-size: 14px;
+}
+.card-info span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.fill{
+    color: #FFC014;
+}
+.fa-star-half-alt{
+    font-size: 12px;
+    color:#FFC014 ;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
