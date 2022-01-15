@@ -40,7 +40,6 @@ body{
 
 /* ==========================Influencer Part Style========================  */
 .container{
-    height: 100vh;
     margin: 0 auto;
     display: flex;
     align-items: center;
