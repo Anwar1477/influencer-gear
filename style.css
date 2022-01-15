@@ -1,25 +1,17 @@
 /* ===========FontStyle========== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* ======================Header Style=================  */
 .header{
     width: 1440px;
     padding: 10px;
     display: flex;
     padding: 40px;
 }
-/* .logo{
-    width: 100px;
-    display: flex;
-    align-items: center;
-    margin-left: 200px;
-} */
 .text p{
     color: Black;
     margin-left: 10px;
@@ -45,6 +37,8 @@ body{
 .nav ul li a:hover{
     color: red;
 }
+
+/* ==========================Influencer Part Style========================  */
 .container{
     height: 100vh;
     margin: 0 auto;
@@ -86,6 +80,8 @@ body{
     color: #E02C6D;
     animation: typing 10s linear infinite;
 }
+
+/* ====================================Annimation Part Style ========================== */
 @keyframes typing {
     0% {
         content: 'Start ';
@@ -123,9 +119,9 @@ body{
         content: 'Start ';
     }
 
-    /* 90% {
+    90% {
         content: ' ';
-    } */
+    }
 
     100% {
         content: ' ';
@@ -133,11 +129,7 @@ body{
 
     
 }
-/* .influencer-left h1{
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 70px;
-} */
+
 .influencer-right{
     margin-left: 50px;
     margin-top: 20px;
@@ -160,7 +152,7 @@ body{
     /* position: absolute; */
 }
 
-/* logo section */
+/*========================= logo section===================== */
 hr{
     opacity: 0.4;
 }
@@ -180,7 +172,7 @@ hr{
     padding: 0 30px;
 }
 
-/* Collection Area  */
+/* ===============================Collection Area===========================  */
 .collection-area{
     width: 1200px;
     justify-content: center;
@@ -191,9 +183,10 @@ hr{
     font-weight: 600;
     font-size: 28px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .collection{
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 26px;
@@ -204,13 +197,13 @@ hr{
 }
 
 .card{
-        margin: 0 auto;
-        box-shadow: 5px 5px 5px 5px #888888;
-        border-radius: 5px;
-        padding: 5px;
-        width: 329px;
-        height: 476px;
-        overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 5px;
+    padding: 5px;
+    width: 329px;
+    height: 476px;
+    overflow: hidden;
 }
 .card .card-image{
     width: 100%;
@@ -225,7 +218,7 @@ hr{
     font-weight: 500;
     font-size: 20px;
     margin-left: 10px;
-    line-height: 10px;
+    line-height: 50px;
 }
 .details{
     margin-left: 10px;
@@ -262,6 +255,7 @@ hr{
     color: rgba(224, 44, 109, 0.87);
     font-weight: 700;
 }
+/* ====================================Bonus Part ======================= */
 .bonus-part{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -292,24 +286,28 @@ hr{
 .bonus-title{
     font-family: 'Inter', sans-serif;
     font-weight: 800;
+    line-height: 50px;
     color: rgba(224, 44, 109, 0.87);
 
 
 }
+.bonus-details h5{
+    line-height: 30px;
+}
 .bonus-details p{
     color: #787885;
+    line-height: 20px;
+    margin-top: 30px;
 }
 .bonus-right a{
     text-decoration: none;
-    margin-top: 50px;
     color: white;
     padding: 10px 24px;
     background-color: #E02C6D;
     border-radius: 41px;
 }
 
-/* Footer Area styles  */
-footer{}
+/* ========================Footer Area styles==========================  */
 
 .footer{
     padding-right: 0;
